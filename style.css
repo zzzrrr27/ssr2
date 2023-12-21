@@ -1,0 +1,107 @@
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.hh{
+    height: 30rem;
+}
+
+.yl{
+    background-color:#FB8C00;
+}
+.bl{
+    background-color:#212529;;
+}
+.off{
+    background-color: whitesmoke;
+}
+
+.txtcl{
+    color: white;
+
+}
+
+.fl{
+    float: left;
+}
+.cl{
+    color:white;
+}
+.bdr{
+    border: 2px white solid;
+}
+.bdrbck{
+        border: 3px black solid;
+}
+
+#myVideo {
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1 ;
+    right: 0;
+    bottom: 0;
+  }
+
+  .blac{
+    position: relative;
+    height: 50rem;
+  }
+
+  .csclass{
+    position: absolute;
+    top:40%;
+
+    right: 10%;
+    height: fit-content;
+    width: 100%;
+    z-index: 0;
+  } 
+
+  .ftc{
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+
+  .yltxt{
+    color:#FB8C00;
+}
+
+.htexts{
+    color: #F39744;
+}
+
+#myCarousel{
+    margin-top: 2rem;
+}
+.btnact{
+    background-color: #F39744 ;
+    color: black;
+    font-weight: bold;
+
+}
+
+.tw{
+    color: white;
+}
+.containers{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+}
+
+.gallery img{
+    width: 100%;
+
+}
